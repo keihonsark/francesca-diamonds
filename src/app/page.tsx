@@ -10,19 +10,19 @@ import ScrollReveal from "@/components/ui/ScrollReveal";
 gsap.registerPlugin(ScrollTrigger);
 
 const featuredProducts = [
-  { name: "Aurelia Solitaire Ring", category: "Rings", image: "/images/products/ring-1.svg" },
-  { name: "Luna Pendant Necklace", category: "Necklaces", image: "/images/products/necklace-1.svg" },
-  { name: "Seraphina Tennis Bracelet", category: "Bracelets", image: "/images/products/bracelet-1.svg" },
-  { name: "Celeste Drop Earrings", category: "Earrings", image: "/images/products/earring-1.svg" },
+  { name: "Aurelia Solitaire Ring", category: "Rings", image: "/images/products/gold-oval-ring.png" },
+  { name: "Luna Pendant Necklace", category: "Necklaces", image: "/images/products/gold-pendant-necklace.png" },
+  { name: "Seraphina Tennis Bracelet", category: "Bracelets", image: "/images/products/rose-gold-bangle.png" },
+  { name: "Celeste Drop Earrings", category: "Earrings", image: "/images/products/rose-gold-engagement-ring.png" },
 ];
 
 const instagramImages = [
-  "/images/lifestyle/insta-1.svg",
-  "/images/lifestyle/insta-2.svg",
-  "/images/lifestyle/insta-3.svg",
-  "/images/lifestyle/insta-4.svg",
-  "/images/lifestyle/insta-5.svg",
-  "/images/lifestyle/insta-6.svg",
+  "/images/lifestyle/beach-bliss.png",
+  "/images/lifestyle/beach-serenity.png",
+  "/images/lifestyle/elegance.png",
+  "/images/lifestyle/glow-by-sea.png",
+  "/images/lifestyle/serenity.png",
+  "/images/products/gold-layered-necklace.png",
 ];
 
 export default function Home() {
@@ -66,7 +66,7 @@ export default function Home() {
         <div ref={heroImageRef} className="absolute inset-0 -top-20">
           <div className="w-full h-[120%] bg-card relative">
             <Image
-              src="/images/hero/hero-main.svg"
+              src="/images/lifestyle/beach-bliss.png"
               alt="Fine jewelry by Francesca"
               fill
               className="object-cover"
@@ -133,7 +133,7 @@ export default function Home() {
             <ScrollReveal>
               <div className="aspect-[4/5] relative overflow-hidden">
                 <Image
-                  src="/images/lifestyle/custom-design.svg"
+                  src="/images/lifestyle/elegance.png"
                   alt="Custom jewelry design"
                   fill
                   className="object-cover"
@@ -197,7 +197,7 @@ export default function Home() {
             <ScrollReveal delay={0.2}>
               <div className="aspect-[4/5] relative overflow-hidden order-1 md:order-2">
                 <Image
-                  src="/images/lifestyle/about-teaser.svg"
+                  src="/images/lifestyle/serenity.png"
                   alt="Francesca jewelry studio"
                   fill
                   className="object-cover"

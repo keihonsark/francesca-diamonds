@@ -7,7 +7,8 @@
       "Bash(cp -r temp-init/* .)",
       "Bash(cp -r temp-init/.eslintrc.json .)",
       "Bash(cp -r temp-init/.gitignore .)",
-      "Bash(npm install:*)"
+      "Bash(npm install:*)",
+      "Bash(ls public/images/products/*.png)"
     ],
     "additionalDirectories": [
       "C:\\Users\\SS\\Desktop\\clientwebsites\\jewelry\\francesca-diamonds\\public\\images\\hero"

@@ -77,7 +77,7 @@ export default function AboutPage() {
             <ScrollReveal delay={0.2}>
               <div className="aspect-[4/5] relative overflow-hidden">
                 <Image
-                  src="/images/lifestyle/about-studio.svg"
+                  src="/images/lifestyle/glow-by-sea.png"
                   alt="Francesca jewelry studio in Carlsbad"
                   fill
                   className="object-cover"
