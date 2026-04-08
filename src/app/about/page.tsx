@@ -6,7 +6,7 @@ import ScrollReveal from "@/components/ui/ScrollReveal";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "Discover the story behind FRANCESCA. — fine jewelry designed around you, crafted in Carlsbad, California.",
+    "Discover the story behind Lumière — a boutique fine jewelry house specializing in custom designs and ethically sourced diamonds.",
 };
 
 const values = [
@@ -37,7 +37,7 @@ export default function AboutPage() {
             Our Story
           </h1>
           <p className="text-muted max-w-lg mx-auto">
-            Where coastal beauty meets timeless design.
+            Where intention meets artistry.
           </p>
         </div>
       </section>
@@ -49,27 +49,26 @@ export default function AboutPage() {
             <ScrollReveal>
               <div>
                 <h2 className="font-cormorant font-light text-3xl mb-6">
-                  Born in Carlsbad
+                  A Different Kind of Jeweler
                 </h2>
                 <div className="space-y-4 text-muted leading-relaxed">
                   <p>
-                    FRANCESCA. was born from a simple belief: that fine jewelry should be as
-                    unique as the person who wears it. Founded in the sun-drenched coastal
-                    town of Carlsbad, California, our studio draws inspiration from the
-                    natural beauty that surrounds us — the golden light, the ocean&apos;s
-                    endless horizon, the warmth of the California lifestyle.
+                    Lumi&egrave;re was founded on a simple belief: that fine jewelry
+                    should be as unique as the person who wears it. We are a boutique
+                    jewelry house specializing in custom designs and ethically sourced
+                    diamonds, creating pieces that celebrate life&apos;s most meaningful
+                    moments.
                   </p>
                   <p>
-                    What began as a passion for gemstones and design has evolved into a
-                    deeply personal jewelry experience. We don&apos;t believe in
-                    one-size-fits-all. Every engagement ring, every necklace, every pair
-                    of earrings is a conversation — between your vision and our craft.
+                    Every engagement ring, every necklace, every pair of earrings begins
+                    as a conversation — between your vision and our craft. We don&apos;t
+                    believe in one-size-fits-all, and we never will.
                   </p>
                   <p>
-                    We work by appointment only because we believe you deserve more than a
-                    transactional experience. When you walk through our doors, you&apos;re
-                    not just a customer — you&apos;re a collaborator. Together, we&apos;ll
-                    create something that tells your story.
+                    We work by appointment only because we believe you deserve more than
+                    a transactional experience. When you work with us, you&apos;re not
+                    just a customer — you&apos;re a collaborator. Together, we create
+                    something that tells your story.
                   </p>
                 </div>
               </div>
@@ -78,7 +77,7 @@ export default function AboutPage() {
               <div className="aspect-[4/5] relative overflow-hidden">
                 <Image
                   src="/images/lifestyle/glow-by-sea.png"
-                  alt="Francesca jewelry studio in Carlsbad"
+                  alt="Lumière jewelry studio"
                   fill
                   className="object-cover"
                   sizes="(max-width: 768px) 100vw, 50vw"
@@ -121,7 +120,7 @@ export default function AboutPage() {
             </h2>
             <p className="text-muted max-w-md mx-auto mb-8">
               We&apos;d love to hear your story and help bring your vision to life.
-              Book an appointment at our Carlsbad studio.
+              Book an appointment at our studio.
             </p>
             <Link href="/appointment" className="btn-primary">
               Book an Appointment

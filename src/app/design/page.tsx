@@ -291,15 +291,20 @@ export default function DesignPage() {
                         }`}
                       >
                         {option.image ? (
-                          <div className="aspect-[4/3] relative overflow-hidden bg-card">
-                            <Image
-                              src={option.image}
-                              alt={option.label}
-                              fill
-                              className="object-cover"
-                              sizes="(max-width: 768px) 40vw, 20vw"
-                            />
-                          </div>
+                          <>
+                            <div className="aspect-[4/3] relative overflow-hidden bg-card">
+                              <Image
+                                src={option.image}
+                                alt={option.label}
+                                fill
+                                className="object-cover"
+                                sizes="(max-width: 768px) 40vw, 20vw"
+                              />
+                            </div>
+                            <p className="text-xs text-center py-2 uppercase tracking-[0.08em]">
+                              {option.label}
+                            </p>
+                          </>
                         ) : (
                           <div className="aspect-[4/3] bg-card flex items-center justify-center">
                             <span className="font-cormorant text-lg text-foreground/70">
@@ -307,9 +312,6 @@ export default function DesignPage() {
                             </span>
                           </div>
                         )}
-                        <p className="text-xs text-center py-2 uppercase tracking-[0.08em]">
-                          {option.label}
-                        </p>
                       </button>
                     ))}
                   </div>

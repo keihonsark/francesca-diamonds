@@ -4,7 +4,7 @@ import DiamondSearch from "@/components/diamonds/DiamondSearch";
 export const metadata: Metadata = {
   title: "Diamond Search",
   description:
-    "Search thousands of certified natural and lab-grown diamonds. Find the perfect stone for your custom piece at FRANCESCA.",
+    "Search thousands of certified natural and lab-grown diamonds. Find the perfect stone for your custom piece at Lumière.",
 };
 
 export default function DiamondsPage() {

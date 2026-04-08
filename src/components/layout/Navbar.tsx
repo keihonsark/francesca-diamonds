@@ -47,7 +47,7 @@ export default function Navbar() {
         <div className="max-w-content mx-auto px-6 flex items-center justify-between h-20">
           {/* Logo */}
           <Link href="/" className="font-cormorant font-light text-2xl tracking-[0.15em] uppercase">
-            FRANCESCA.
+            LUMIÈRE
           </Link>
 
           {/* Desktop Nav */}

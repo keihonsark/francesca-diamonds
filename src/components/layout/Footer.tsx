@@ -20,16 +20,15 @@ export default function Footer() {
               href="/"
               className="font-cormorant font-light text-2xl tracking-[0.15em] uppercase"
             >
-              FRANCESCA.
+              LUMIÈRE
             </Link>
             <p className="mt-4 text-sm text-background/60 leading-relaxed max-w-xs">
-              Fine jewelry designed around you. By appointment only in Carlsbad,
-              California.
+              Fine jewelry, made personal. By appointment only.
             </p>
             {/* Social icons */}
             <div className="flex gap-4 mt-6">
               <a
-                href="https://instagram.com/francescadiamonds"
+                href="https://instagram.com/lumierejewelry"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-background/60 hover:text-accent transition-colors"
@@ -40,7 +39,7 @@ export default function Footer() {
                 </svg>
               </a>
               <a
-                href="https://facebook.com/francescadiamonds"
+                href="https://facebook.com/lumierejewelry"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-background/60 hover:text-accent transition-colors"
@@ -51,7 +50,7 @@ export default function Footer() {
                 </svg>
               </a>
               <a
-                href="https://pinterest.com/francescadiamonds"
+                href="https://pinterest.com/lumierejewelry"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-background/60 hover:text-accent transition-colors"
@@ -86,25 +85,16 @@ export default function Footer() {
           {/* Contact */}
           <div>
             <h3 className="font-cormorant text-lg font-light tracking-wider mb-4">
-              Visit Us
+              Get in Touch
             </h3>
             <div className="space-y-3 text-sm text-background/60">
-              <p>Carlsbad, CA 92008</p>
               <p>By Appointment Only</p>
               <p>
                 <a
-                  href="mailto:hello@francescadiamonds.com"
+                  href="mailto:hello@lumiere.com"
                   className="hover:text-accent transition-colors"
                 >
-                  hello@francescadiamonds.com
-                </a>
-              </p>
-              <p>
-                <a
-                  href="tel:+17605551234"
-                  className="hover:text-accent transition-colors"
-                >
-                  (760) 555-1234
+                  hello@lumiere.com
                 </a>
               </p>
               <div className="pt-4">
@@ -117,7 +107,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-background/10 mt-12 pt-8 text-center text-xs text-background/40">
-          <p>&copy; {new Date().getFullYear()} FRANCESCA. All rights reserved.</p>
+          <p>&copy; 2026 Lumi&egrave;re. All rights reserved.</p>
         </div>
       </div>
     </footer>

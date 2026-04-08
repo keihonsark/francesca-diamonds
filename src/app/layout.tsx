@@ -21,18 +21,18 @@ const questrial = Questrial({
 
 export const metadata: Metadata = {
   title: {
-    default: "FRANCESCA. | Fine Jewelry — Carlsbad, CA",
-    template: "%s | FRANCESCA.",
+    default: "LUMIÈRE | Fine Jewelry, Made Personal",
+    template: "%s | LUMIÈRE",
   },
   description:
-    "Fine jewelry designed around you. Custom engagement rings, wedding bands, necklaces, and more. By appointment only in Carlsbad, California.",
+    "Fine jewelry, made personal. Custom engagement rings, wedding bands, necklaces, and more. By appointment only.",
   openGraph: {
     type: "website",
     locale: "en_US",
-    siteName: "FRANCESCA.",
-    title: "FRANCESCA. | Fine Jewelry — Carlsbad, CA",
+    siteName: "LUMIÈRE",
+    title: "LUMIÈRE | Fine Jewelry, Made Personal",
     description:
-      "Fine jewelry designed around you. Custom engagement rings, wedding bands, necklaces, and more. By appointment only in Carlsbad, California.",
+      "Fine jewelry, made personal. Custom engagement rings, wedding bands, necklaces, and more. By appointment only.",
   },
 };
 

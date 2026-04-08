@@ -5,7 +5,7 @@ import ScrollReveal from "@/components/ui/ScrollReveal";
 export const metadata: Metadata = {
   title: "Book an Appointment",
   description:
-    "Schedule a private consultation at our Carlsbad studio. By appointment only — we dedicate our full attention to every client.",
+    "Schedule a private consultation at our studio or virtually. By appointment only — we dedicate our full attention to every client.",
 };
 
 const formFields = [
@@ -49,44 +49,22 @@ export default function AppointmentPage() {
             </ScrollReveal>
 
             <ScrollReveal delay={0.2}>
-              <div>
-                <div className="bg-card p-8 mb-8">
-                  <h3 className="font-cormorant text-xl mb-4">Visit Us</h3>
-                  <div className="space-y-3 text-sm text-muted">
-                    <p>Carlsbad, CA 92008</p>
-                    <p>By Appointment Only</p>
-                    <p>
-                      <a
-                        href="mailto:hello@francescadiamonds.com"
-                        className="hover:text-accent transition-colors"
-                      >
-                        hello@francescadiamonds.com
-                      </a>
-                    </p>
-                    <p>
-                      <a
-                        href="tel:+17605551234"
-                        className="hover:text-accent transition-colors"
-                      >
-                        (760) 555-1234
-                      </a>
-                    </p>
-                  </div>
-                </div>
-
-                {/* Google Maps Embed */}
-                <div className="aspect-[4/3] relative">
-                  <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53594.23844488655!2d-117.39!3d33.16!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc73579ab20fb5%3A0x4e6e7e5e2c5f4c8!2sCarlsbad%2C%20CA!5e0!3m2!1sen!2sus!4v1"
-                    width="100%"
-                    height="100%"
-                    style={{ border: 0 }}
-                    allowFullScreen
-                    loading="lazy"
-                    referrerPolicy="no-referrer-when-downgrade"
-                    title="Francesca location in Carlsbad, CA"
-                    className="absolute inset-0"
-                  />
+              <div className="bg-card p-8">
+                <h3 className="font-cormorant text-xl mb-4">Visit Us</h3>
+                <div className="space-y-3 text-sm text-muted">
+                  <p>
+                    Contact us to schedule a private consultation at our studio
+                    or virtually.
+                  </p>
+                  <p>By Appointment Only</p>
+                  <p>
+                    <a
+                      href="mailto:hello@lumiere.com"
+                      className="hover:text-accent transition-colors"
+                    >
+                      hello@lumiere.com
+                    </a>
+                  </p>
                 </div>
               </div>
             </ScrollReveal>

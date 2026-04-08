@@ -67,7 +67,7 @@ export default function Home() {
           <div className="w-full h-[120%] bg-card relative">
             <Image
               src="/images/lifestyle/beach-bliss.png"
-              alt="Fine jewelry by Francesca"
+              alt="Fine jewelry by Lumière"
               fill
               className="object-cover"
               priority
@@ -79,10 +79,10 @@ export default function Home() {
 
         <div className="relative z-10 text-center text-white px-6">
           <h1 className="hero-animate font-cormorant font-light text-5xl md:text-7xl lg:text-8xl tracking-[0.15em] uppercase opacity-0">
-            FRANCESCA.
+            LUMIÈRE
           </h1>
           <p className="hero-animate font-cormorant font-light text-lg md:text-xl mt-4 tracking-wide opacity-0">
-            Fine jewelry designed around you.
+            Fine jewelry, made personal.
           </p>
           <div className="hero-animate mt-8 opacity-0">
             <Link href="/collection" className="btn-primary bg-white/10 backdrop-blur-sm border border-white/30 text-white hover:bg-accent hover:border-accent">
@@ -184,10 +184,10 @@ export default function Home() {
             <ScrollReveal>
               <div className="order-2 md:order-1">
                 <p className="text-muted leading-relaxed mb-6">
-                  Born from a love of timeless design and the California coast, FRANCESCA. creates
-                  fine jewelry that celebrates life&apos;s most meaningful moments. Based in Carlsbad,
-                  we offer a deeply personal experience — by appointment only — because every client
-                  deserves our full attention.
+                  Lumi&egrave;re is a boutique fine jewelry house specializing in custom
+                  designs and ethically sourced diamonds. We offer a deeply personal
+                  experience — by appointment only — because every client deserves
+                  our full attention.
                 </p>
                 <Link href="/about" className="text-sm uppercase tracking-[0.1em] text-foreground hover:text-accent transition-colors border-b border-foreground hover:border-accent pb-0.5">
                   Our Story
@@ -198,7 +198,7 @@ export default function Home() {
               <div className="aspect-[4/5] relative overflow-hidden order-1 md:order-2">
                 <Image
                   src="/images/lifestyle/serenity.png"
-                  alt="Francesca jewelry studio"
+                  alt="Lumière jewelry studio"
                   fill
                   className="object-cover"
                   sizes="(max-width: 768px) 100vw, 50vw"
@@ -217,12 +217,12 @@ export default function Home() {
               Follow Along
             </h2>
             <a
-              href="https://instagram.com/francescadiamonds"
+              href="https://instagram.com/lumierejewelry"
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm text-muted hover:text-accent transition-colors"
             >
-              @francescadiamonds
+              @lumierejewelry
             </a>
           </ScrollReveal>
         </div>
@@ -231,14 +231,14 @@ export default function Home() {
             {instagramImages.map((img, i) => (
               <ScrollReveal key={i} delay={i * 0.05}>
                 <a
-                  href="https://instagram.com/francescadiamonds"
+                  href="https://instagram.com/lumierejewelry"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block aspect-square relative overflow-hidden group"
                 >
                   <Image
                     src={img}
-                    alt="Francesca on Instagram"
+                    alt="Lumière on Instagram"
                     fill
                     className="object-cover transition-transform duration-500 group-hover:scale-105"
                     sizes="(max-width: 768px) 33vw, 16vw"
